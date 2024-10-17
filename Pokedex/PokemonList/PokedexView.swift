@@ -53,15 +53,11 @@ struct PokedexView: View {
                         ForEach(viewModel.pokemons) { pokemon in
                             VStack(spacing: 0) {
                                 if let imageUrl = pokemon.imageURL {
-                                    AsyncImage(url: URL(string: imageUrl)) { image in
-                                        image
-                                            .resizable()
-                                            .scaledToFit()
-                                            .frame(width: 100, height: 100)
-                                    } placeholder: {
-                                        ProgressView()
-                                            .frame(width: 100, height: 100)
-                                    }
+                                    CachedAsyncImage(urlString: imageUrl, placeholder: {
+                                        AnyView(
+                                            ProgressView().frame(width: 100, height: 100)
+                                        )
+                                    })
                                 } else {
                                     // For some images, server response error, use placeholder to make the grid proper
                                     Image(systemName: "photo")

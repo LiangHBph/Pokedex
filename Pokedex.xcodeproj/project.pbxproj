@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D526185A2CC0EB7900F13D27 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52618592CC0EB7900F13D27 /* ImageCacheManager.swift */; };
+		D526185C2CC0EBE800F13D27 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D526185B2CC0EBE800F13D27 /* ImageView.swift */; };
 		D5CEAA2F2CC0AD14003B0BAF /* PokedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CEAA2E2CC0AD14003B0BAF /* PokedexApp.swift */; };
 		D5CEAA312CC0AD14003B0BAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CEAA302CC0AD14003B0BAF /* ContentView.swift */; };
 		D5CEAA332CC0AD18003B0BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CEAA322CC0AD18003B0BAF /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D52618592CC0EB7900F13D27 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		D526185B2CC0EBE800F13D27 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		D5CEAA2B2CC0AD14003B0BAF /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CEAA2E2CC0AD14003B0BAF /* PokedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexApp.swift; sourceTree = "<group>"; };
 		D5CEAA302CC0AD14003B0BAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 				D5CEAA592CC0AECD003B0BAF /* PokemonModel.swift */,
 				D5CEAA5B2CC0AEEB003B0BAF /* PokemonViewModel.swift */,
 				D5CEAA5D2CC0AF30003B0BAF /* PokedexView.swift */,
+				D526185B2CC0EBE800F13D27 /* ImageView.swift */,
 			);
 			path = PokemonList;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			children = (
 				D5CEAA602CC0C889003B0BAF /* Services.swift */,
 				D5CEAA622CC0E78B003B0BAF /* ServiceError.swift */,
+				D52618592CC0EB7900F13D27 /* ImageCacheManager.swift */,
 			);
 			path = APIServices;
 			sourceTree = "<group>";
@@ -292,7 +298,9 @@
 				D5CEAA612CC0C889003B0BAF /* Services.swift in Sources */,
 				D5CEAA5A2CC0AECD003B0BAF /* PokemonModel.swift in Sources */,
 				D5CEAA5E2CC0AF30003B0BAF /* PokedexView.swift in Sources */,
+				D526185A2CC0EB7900F13D27 /* ImageCacheManager.swift in Sources */,
 				D5CEAA5C2CC0AEEB003B0BAF /* PokemonViewModel.swift in Sources */,
+				D526185C2CC0EBE800F13D27 /* ImageView.swift in Sources */,
 				D5CEAA632CC0E78B003B0BAF /* ServiceError.swift in Sources */,
 				D5CEAA2F2CC0AD14003B0BAF /* PokedexApp.swift in Sources */,
 			);
